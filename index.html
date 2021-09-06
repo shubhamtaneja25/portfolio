@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Shubham Taneja | Portfolio</title>
+</head>
+<body>
+
+    <div class="modeWrapper">
+        <img src="./assets/img/sunDark.png" alt="LIGHT" class="modeIcon" id="modeIcon1">
+        <div class="switchWrapper">
+            <div class="switchInner" id="switchInner" onclick="modeSwitch()">
+                <div class="switchLine"></div>
+                <div class="switchCircle"></div>
+            </div>
+        </div>
+        <img src="./assets/img/moonDark.png" alt="DARK" class="modeIcon" id="modeIcon2">
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="logo"><strong>Shubham</strong> Taneja</div>
+        <div class="navLinksWrapper">
+            <a href="#about" class="hover-underline-animation navLink navLinkDark">About Me</a>
+            <a href="#projects" class="hover-underline-animation navLink navLinkDark">Projects</a>
+            <a href="#experience" class="hover-underline-animation navLink navLinkDark">Work Experience</a>
+            <a href="#education" class="hover-underline-animation navLink navLinkDark">Education</a>
+            <a href="./assets/files/resume_Shubham_Taneja.pdf" download="Shubham Taneja - Portfolio" class="navLink">Download CV &darr;</a>
+        </div>
+    </nav>
+
+    <nav class="navbarMobile" id="navbarMobile">
+        <div class="logo"><strong>Shubham</strong> Taneja</div>
+        <div class="menuBtn" id="burger">
+            <div class="menuLine" id="menuLine1"></div>
+            <div class="menuLine" id="menuLine2"></div>
+        </div>
+    </nav>
+
+    <div class="menu" id="menu">
+        <div class="menuControl">
+            <a href="#about" class="menuControlLink" id="menuControlLink1" onclick="menuBtnClick()">About</a>
+            <a href="#projects" class="menuControlLink" id="menuControlLink2" onclick="menuBtnClick()">Projects</a>
+            <a href="#experience" class="menuControlLink" id="menuControlLink3" onclick="menuBtnClick()">Experience</a>
+            <a href="#education" class="menuControlLink" id="menuControlLink4" onclick="menuBtnClick()">Education</a>
+            <a href="./assets/files/resume_Shubham_Taneja.pdf" download="Shubham Taneja- Portfolio" class="downloadBtnHead downloadBtnHeadMenu">Download CV &darr;</a>
+        </div>
+    </div>
+
+    <div class="homeHead" id="about">
+        <div class="profileImageWrapper">
+            <img src="./assets/img/user.jpg" alt="PROFILE IMAGE" class="profileImage">
+        </div>
+        <div class="textWrapperHead">
+            <p class="headName">Shubham Taneja</p>
+            <p class="headSub">Software Engineer</p>
+            <p class="headPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates at quasi labore facilis harum. Voluptate voluptatem recusandae neque magni laudantium dolores. Ex, aliquam fugit facere illum ducimus perferendis quo vitae numquam at accusantium, corrupti quam nulla maiores! At, impedit illo.</p>
+            <div class="headButtons">
+                <a href="./assets/files/resume_Shubham_Taneja.pdf" download="Shubham Taneja - Portfolio" class="downloadBtnHead">Download CV &darr;</a>
+                <a href="mailto:shubham.taneja@stonybrook.edu" class="downloadBtnHead">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="contentWrapper" id="experience">
+        <div class="headingWrapper">
+            <h3 class="headingMain">Work Experience</h3>
+            <div class="underlineOuter">
+                <div class="underlineInner"></div>
+            </div>
+        </div>
+
+        <div class="experienceContentWrapper">
+            <div class="experienceContentInner">
+                <div class="experienceDateandLoc">
+                    <strong>July 2017 - December 2020</strong>
+                    <p>Bangalore, India</p>
+                </div>
+                <div class="experienceContent">
+                    <h2>General Electric (GE) - Software Engineer</h2>
+                    <p class="headSub">Advanced Modelling Platform – GE Gas Power</p>
+                    <p class="experienceContentPara">Led a team of 4 and worked as a full stack developer (JAVA and Angular JS) in GE Gas Power’s AMP project meant to provide a  seamless end to end contract margin review experience and modelling which helps manage the ITO and OTR processes for service  contracts for Gas Turbines. </p>
+                    <br>
+                    <p class="experienceContentPara">Helps with deal creation, financial modelling, margin review, risk analysis and portfolio management.</p>
+                </div>
+            </div>
+
+            <div class="experienceContentInner">
+                <div class="experienceDateandLoc">
+                    <strong>July 2017 - December 2020</strong>
+                    <p>Bangalore, India</p>
+                </div>
+                <div class="experienceContent">
+                    <h2>General Electric (GE) - Software Engineer</h2>
+                    <p class="headSub">WAREasy – Warehouse Automation</p>
+                    <p class="experienceContentPara">Implemented a solution to automate the process of handling order entries in the warehouse using Flask (Python), React.js, PostgreSQL, Predix Cloud and SAP-ERP. (Presented in SAP TechEd, Bangalore 2019)</p>
+                    <br>
+                    <p class="experienceContentPara">Migrated from third-party application to an in-house product and deployed in the production environment of three plants of GE.</p>
+                </div>
+            </div>
+
+            <div class="experienceContentInner">
+                <div class="experienceDateandLoc">
+                    <strong>July 2017 - December 2020</strong>
+                    <p>Bangalore, India</p>
+                </div>
+                <div class="experienceContent">
+                    <h2>General Electric (GE) - Software Engineer</h2>
+                    <p class="headSub">Chatbot for ERP</p>
+                    <p class="experienceContentPara">Led and architected the development to enhance the user experience by integrating material management and production planning transactions with conversational based chatbot using NodeJS, NLP, OData (Restful)</p>
+                    <br>
+                    <p class="experienceContentPara">Launched and hosted the application in the production system of 2 ERPs of GE Power.</p>
+                </div>
+            </div>
+
+            <div class="experienceContentInner">
+                <div class="experienceDateandLoc">
+                    <strong>January 2017 - June 2017</strong>
+                    <p>Bangalore, India</p>
+                </div>
+                <div class="experienceContent">
+                    <h2>General Electric (GE) – IT Intern</h2>
+                    <p class="headSub">LCS (Life Care Services) Tracker</p>
+                    <p class="experienceContentPara">Worked on a portal which helped to track the LCS (Life Care Services) orders of parts of GE Healthcare machines.</p>
+                    <br>
+                    <p class="experienceContentPara">Designed a feature to predict the delivery of orders with recommendation algorithm and Python libraries (pandas and scikit learn)</p>
+                </div>
+            </div>
+
+            <div class="experienceContentInner">
+                <div class="experienceDateandLoc">
+                    <strong>May 2015 - July 2015</strong>
+                    <p>Gurgaon, India</p>
+                </div>
+                <div class="experienceContent">
+                    <h2>Maruti Suzuki Ind. Ltd. - Intern, Information Technology Division</h2>
+                    <p class="headSub">Truck in Truck Out</p>
+                    <p class="experienceContentPara">Worked on development (micro-services, datasystems) of a product for digital dispatch and arrival of Trucks from the parking area using RFID tagging and controlling the quantity through backend database and connection which sends the data and status to the office site.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contentWrapper" id="education">
+        <div class="headingWrapper">
+            <h3 class="headingMain">Education</h3>
+            <div class="underlineOuter">
+                <div class="underlineInner"></div>
+            </div>
+        </div>
+
+        <div class="educationWrapper">
+            <div class="educationDiv">
+                <h3>Vellore Institute of Technology, Vellore, India</h3>
+                <p>July 2013 - May 2017</p>
+                <p class="headSub headSubAlt">Bachelor of Technology: Computer Science and Engineering</p>
+                <ul>
+                    <li>CGPA - 8.22/10.00</li>
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                </ul>
+            </div>
+
+            <div class="educationDiv">
+                <h3>Stony Brook University, New York</h3>
+                <p>January 2021 - Present</p>
+                <p class="headSub headSubAlt">Master of Science: Computer Science</p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, fuga.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="contentWrapper" id="projects">
+        <div class="headingWrapper">
+            <h3 class="headingMain">My Projects</h3>
+            <div class="underlineOuter">
+                <div class="underlineInner"></div>
+            </div>
+        </div>
+
+        <div class="projectsWrapper">
+            <a class="projectLink" id="projectLink1" href="">
+                <div class="projectWrapper">
+                    <div class="projectContent">
+                        <p class="projectHead">Project Number 1</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio repellat minima iusto voluptas eveniet? Obcaecati voluptate aperiam est quaerat debitis cum adipisci harum numquam nihil soluta. Veritatis modi molestiae laborum.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a class="projectLink" id="projectLink2" href="">
+                <div class="projectWrapper">
+                    <div class="projectContent">
+                        <p class="projectHead">Project Number 2</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nam quia possimus quasi consequatur pariatur quo quidem quas mollitia aliquam.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a class="projectLink" id="projectLink3" href="">
+                <div class="projectWrapper">
+                    <div class="projectContent">
+                        <p class="projectHead">Project Number 3</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab excepturi commodi sunt doloremque libero ipsam esse architecto voluptatum qui itaque labore repellat nostrum numquam porro, voluptates quibusdam. Temporibus, cupiditate. Dolorum.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a class="projectLink" id="projectLink4" href="">
+                <div class="projectWrapper">
+                    <div class="projectContent">
+                        <p class="projectHead">Project Number 4</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis placeat blanditiis eius exercitationem qui libero vitae, doloremque praesentium error quasi suscipit sint repellendus! Error recusandae, sequi repudiandae similique ducimus est officia ratione labore beatae alias? At numquam iste dolore fuga?</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+
+    <div class="contentWrapper">
+        <div class="headingWrapper">
+            <h3 class="headingMain">My Skills</h3>
+            <div class="underlineOuter">
+                <div class="underlineInner"></div>
+            </div>
+        </div>
+
+        <div class="skillsWrapper">
+            <div class="skillsWrapperInner">
+                <h3 class="skill">Python</h3>
+                <p class="headSub">80%</p>
+                <div class="skillBar">
+                    <div class="skillBarLine" style="width: calc(80%);"></div>
+                    <div class="skillBarLine skillBarLineAlt"></div>
+                    <div class="skillBarCircle"></div>
+                </div>
+                
+                <h3 class="skill">Java</h3>
+                <p class="headSub">70%</p>
+                <div class="skillBar">
+                    <div class="skillBarLine" style="width: calc(70%);"></div>
+                    <div class="skillBarLine skillBarLineAlt"></div>
+                    <div class="skillBarCircle"></div>
+                </div>
+                
+                <h3 class="skill">C</h3>
+                <p class="headSub">90%</p>
+                <div class="skillBar">
+                    <div class="skillBarLine" style="width: calc(90%);"></div>
+                    <div class="skillBarLine skillBarLineAlt"></div>
+                    <div class="skillBarCircle"></div>
+                </div>
+                
+                <h3 class="skill">C++</h3>
+                <p class="headSub">80%</p>
+                <div class="skillBar">
+                    <div class="skillBarLine" style="width: calc(80%);"></div>
+                    <div class="skillBarLine skillBarLineAlt"></div>
+                    <div class="skillBarCircle"></div>
+                </div>
+
+                <h3 class="skill">HTML</h3>
+                <p class="headSub">60%</p>
+                <div class="skillBar">
+                    <div class="skillBarLine" style="width: calc(60%);"></div>
+                    <div class="skillBarLine skillBarLineAlt"></div>
+                    <div class="skillBarCircle"></div>
+                </div>
+
+                <h3 class="skill">CSS</h3>
+                <p class="headSub">70%</p>
+                <div class="skillBar">
+                    <div class="skillBarLine" style="width: calc(70%);"></div>
+                    <div class="skillBarLine skillBarLineAlt"></div>
+                    <div class="skillBarCircle"></div>
+                </div>
+
+                <h3 class="skill">SQL</h3>
+                <p class="headSub">80%</p>
+                <div class="skillBar">
+                    <div class="skillBarLine" style="width: calc(80%);"></div>
+                    <div class="skillBarLine skillBarLineAlt"></div>
+                    <div class="skillBarCircle"></div>
+                </div>
+
+                <h3 class="skill">JavaScript</h3>
+                <p class="headSub">90%</p>
+                <div class="skillBar">
+                    <div class="skillBarLine" style="width: calc(90%);"></div>
+                    <div class="skillBarLine skillBarLineAlt"></div>
+                    <div class="skillBarCircle"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="footerInner">
+            <p class="footerLeft">Copyright &copy; 2021 | Shubham Taneja</p>
+            <div class="footerRight">
+                <div class="footerBottomDiv">
+                    <a href="https://">
+                        <img src="./assets/img/github.png" alt="GITHUB" class="footerIcon">
+                    </a>
+                    <a href="https://">
+                        <img src="./assets/img/linkedin.png" alt="LINKEDIN" class="footerIcon">
+                    </a>
+                    <a href="https://">
+                        <img src="./assets/img/facebook.png" alt="FACEBOOK" class="footerIcon">
+                    </a>
+                    <a href="mailto:shubham.taneja@stonybrook.edu">
+                        <img src="./assets/img/mail.png" alt="mail" class="footerIcon">
+                    </a>
+                </div>
+                <strong>shubham.taneja@stonybrook.edu</strong>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+    <script src="./assets/js/app.js"></script>
+    
+</body>
+</html>
